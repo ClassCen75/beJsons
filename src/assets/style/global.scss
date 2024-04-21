@@ -1,0 +1,72 @@
+:root {
+  // 白天模式
+  --primary-bg: #ffffff;
+  --primary-text: #161618;
+  --primary-Headers: #f8f8f8;
+
+  --check-head: #f1f1f1;
+  --check-box-bg: rgb(228, 228, 228);
+
+  --box-hover: #eeeeee;
+
+  --border-radius: 0.3rem;
+  --card-border-color: #f1f1f2;
+
+  // 副文本颜色
+  --paratext-color: #646464;
+
+  //主题色
+  --paimary-color: #409eff;
+
+  //图片背景
+  --img-bg: #f1faff;
+  --img-bg-border: #83d4ff;
+
+  --dropdown-bg: #ebebeb;
+}
+// 黑夜模式
+[data-theme='dark'] {
+  --primary-bg: #161618;
+  --primary-text: #ffffff;
+  --primary-Headers: #1c1c24;
+
+  --dropdown-bg: #23232c;
+
+  --check-head: #1c1c24;
+  --check-box-bg: #2f2f3a;
+
+  --box-hover: #282831;
+
+  --card-border-color: #2f2f3a;
+
+  // 副文本颜色
+  --paratext-color: #8989aa;
+  --img-bg-border: #045681;
+
+  --img-bg: #2f2f3a;
+  // ... 其他黑夜模式的变量
+}
+
+.theme-switch {
+  --toggle-size: 16px;
+  /* the size is adjusted using font-size,
+       this is not transform scale,
+       so you can choose any size */
+  --container-width: 4.5em;
+  --container-height: 2em;
+  --container-radius: 3em;
+  /* radius 0 - minecraft mode :) */
+  --container-light-bg: #3d7eae;
+  --container-night-bg: #1d1f2c;
+  --circle-container-diameter: 3.375em;
+  --sun-moon-diameter: 2.125em;
+  --sun-bg: #ecca2f;
+  --moon-bg: #c4c9d1;
+  --spot-color: #959db1;
+  --circle-container-offset: calc((var(--circle-container-diameter) - var(--container-height)) / 2 * -1);
+  --stars-color: #fff;
+  --clouds-color: #f3fdff;
+  --back-clouds-color: #aacadf;
+  --transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
+  --circle-transition: 0.3s cubic-bezier(0, -0.02, 0.35, 1.17);
+}
